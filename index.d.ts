@@ -537,6 +537,7 @@ export interface Data {
      * Defaults to `""`.
      */
     empty?: { label: { text: string } };
+    stack?: { normalize: boolean };
 
     selection?: {
         /**
